@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddOrderActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_str"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textStyle="italic"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data_empty_str"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <Button
+        android:id="@+id/date_picker_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/pick_data_str"
+        android:onClick="DatePicker_OnClick"/>
+
+    <Button
+        android:id="@+id/add_products_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/add_product_order_str"
+        android:onClick="AddNewProduct_OnClick"/>
+
+    <ListView
+        android:id="@+id/product_to_add_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        />
+
+    <Button
+        android:id="@+id/add_order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/add_order_str"
+        android:onClick="AddOrder_OnClick"/>
+
+</LinearLayout>

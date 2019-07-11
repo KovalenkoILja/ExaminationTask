@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Магазин</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_detail">Подробно</string>
+    <string name="textHeaderList">Меню</string>
+    <string name="task_1">Заказы</string>
+    <string name="task_2">Товары</string>
+    <string name="task_3">Готовые запросы</string>
+    <string name="minus_str">-</string>
+    <string name="plus_str">+</string>
+    <string name="show_order_list_str">Показать список заказов</string>
+    <string name="add_new_order_str">Добавить новый заказ</string>
+    <string name="show_product_list_str">Показать список товаров</string>
+    <string name="add_new_product_str">Добавить новый товар</string>
+    <string name="order_str">Заказ</string>
+    <string name="data_empty_str">Дата не выбрана</string>
+    <string name="pick_data_str">Выбрать дату</string>
+    <string name="add_product_order_str">Добавить товар к заказу</string>
+    <string name="add_order_str">Добавить заказ</string>
+    <string name="product_str">Товар</string>
+    <string name="id_str">ID</string>
+    <string name="name_str">Название</string>
+    <string name="description_str">Описание</string>
+    <string name="price_str">Цена</string>
+    <string name="add_product_str">Добавить</string>
+</resources>

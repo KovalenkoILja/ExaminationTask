@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_all_products">SELECT * FROM PRODUCTS</string>
+    <string name="select_all_orders">SELECT * FROM ORDERS</string>
+    <string name="select_all_orders_products">SELECT * FROM ORDER_PRODUCTS</string>
+    <string name="select_last_inserted_id">SELECT * FROM SQLITE_SEQUENCE;</string>
+    <string name="database_path">/data/user/0/task.examination.com.examinationtask/databases/</string>
+</resources>
